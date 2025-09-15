@@ -1,0 +1,109 @@
+body {
+margin: 0;
+background-color: #a3c7f0;
+}
+
+.header {
+min-width: 100%;
+    min-height: 100px;
+    background: #666bfa;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    position: relative;
+    z-index: 2;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+.bus {
+    min-width: 100px;
+    max-height: 100px;
+    padding: 10px;
+}
+
+.menu {
+color: #8c1c36;
+font-size: 25px;
+margin: auto;
+}
+
+.nav {
+font-size: 25px;
+    margin-top: 20px;
+    color: #8c1c36;
+margin: auto;
+}
+
+.city {
+    cursor: grab;
+    font-size: 18px;
+}
+
+.content {
+margin-top: 20px;
+margin-bottom: 20px;
+    display: flex;
+    justify-items: center;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.img-content {
+    max-width: 100px;
+    height: 100px;
+    border: 3px solid #000000;
+    padding: 4px;
+}
+
+.block {
+text-align: center;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.bustime {
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 126px;
+    height: 80px;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.citybus {
+    width: 18px;
+    margin: auto;
+    margin-bottom: -10px;
+}
+
+.textt {
+font-size: 10px;
+}
+
+.bustime_bus {
+ padding: 2px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 106px;
+    height: 80px;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+
