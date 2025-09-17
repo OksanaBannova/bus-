@@ -1,1 +1,1 @@
-[GitHub Pages](https://oksanabannova.github.io/bus.github.io/)
+[GitHub Pages](https://oksanabannova.github.io/bus-/)
