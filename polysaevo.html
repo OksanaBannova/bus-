@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Основные метаданные -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название страницы</title>
+    
+    <!-- Описание страницы (для поисковых систем) -->
+    <meta name="description" content="Описание страницы для поисковых систем">
+    <meta name="keywords" content="ключевые, слова, через, запятую">
+    <meta name="author" content="OksBann">
+    
+    <!-- Управление индексацией поисковыми системами -->
+    <meta name="robots" content="index, follow">
+    
+    <!-- Метаданные для социальных сетей (Open Graph) -->
+    <meta property="og:title" content="Название для соцсетей">
+    <meta property="og:description" content="Описание для соцсетей">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:url" content="https://example.com/page">
+    <meta property="og:type" content="website">
+    
+    <!-- Иконка сайта -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Подключение JavaScript -->
+    <script src="script.js" defer></script>
+    
+    <!-- Предварительная загрузка ресурсов -->
+    <link rel="preload" href="important-font.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preconnect" href="https://example.com">
+    
+</head>
+<body>
+    <!-- Содержимое страницы -->
+<header class="header">
+<img class="bus" src="icon.png" alt="Bus">
+<div class="menu">
+<h1>GreatBus</h1>
+</div>
+<nav class="nav">
+<label for="city">Город:</label>
+<select class="city" id="city" name="city">
+    <option value="Pol">Полысаево</option>
+    <option value="LK">Ленинск-Кузнецкий</option>
+    </select>
+</nav>
+</header>
+
+<article class="content">
+<img class="img-content" src="bus1.png" alt="автобус льготный">
+<img class="img-content" src="bus2.png" alt="автобус не льготный">
+</article>
+
+<div class="block">
+<div class="bustime"><label class="busnumber" for="country" style="margin:auto;">119 
+<p class="textt">(ш.Октяб - Губер.рын)</p>
+</label>
+<select class="citybus" id="country" name="country">
+    <option value="">ш.Октябрьская</option>
+    <option value="ru">07:05</option>
+    <option value="us">08:05</option>
+    <option value="gb">09:00</option>
+    <option value="ru">09:50</option>
+<option value="ru">11:20</option>
+<option value="ru">12:15</option>
+<option value="ru">13:17</option>
+<option value="ru">14:05</option>
+<option value="ru">15:05</option>
+<option value="ru">15:55</option>
+<option value="ru">16:35</option>
+<option value="ru">17:40</option>
+<option value="ru">18:20</option>
+<option value="ru">19:20</option>
+</select></div>
+
+<div class="bustime"><label class="busnumber" for="country" style="margin:auto;">119 (льготный) 
+<p class="textt">(ш.Октяб - Губер.рын)</p>
+</label>
+<select class="citybus" id="country" name="country">
+    <option value="">ш.Октябрьская</option>
+    <option value="ru">06:25</option>
+    <option value="us">06:55</option>
+    <option value="gb">07:19</option>
+    <option value="ru">07:37</option>
+<option value="ru">08:15</option>
+<option value="ru">08:51</option>
+<option value="ru">09:09</option>
+<option value="ru">09:27</option>
+<option value="ru">10:05</option>
+<option value="ru">10:41</option>
+<option value="ru">11:35</option>
+<option value="ru">11:55</option>
+<option value="ru">12:31</option>
+<option value="ru">13:07</option>
+<option value="ru">13:25</option>
+<option value="ru">13:45</option>
+<option value="ru">14:21</option>
+<option value="ru">14:57</option>
+<option value="ru">15:15</option>
+<option value="ru">15:25</option>
+<option value="ru">16:11</option>
+<option value="ru">16:47</option>
+<option value="ru">17:05</option>
+<option value="ru">17:25</option>
+<option value="ru">18:01</option>
+<option value="ru">18:37</option>
+<option value="ru">19:33</option>
+<option value="ru">19:55</option>
+<option value="ru">20:20</option>
+<option value="ru">20:55</option>
+<option value="ru">21:23</option>
+<option value="ru">23:35</option>
+</select></div>
+
+<div class="bustime"><label class="busnumber" for="country" style="margin:auto;">119 (выходные: сб-вс) 
+<p class="textt">(ш.Октяб - А/В)</p>
+</label>
+<select class="citybus" id="country" name="country">
+    <option value="">ш.Октябрьская</option>
+    <option value="ru">07:50</option>
+    <option value="gb">09:40</option>
+    <option value="ru">11:00</option>
+<option value="ru">12:45</option>
+<option value="ru">14:35</option>
+<option value="ru">16:25</option>
+</select></div>
+
+<div class="bustime"><label class="busnumber" for="country" style="margin:auto;">125 (льготный) 
+<p class="textt">(Заря - Победа)</p>
+</label>
+<select class="citybus" id="country" name="country">
+    <option value="">Заря</option>
+    <option value="ru">06:55</option>
+    <option value="us">07:00</option>
+    <option value="gb">07:15</option>
+    <option value="ru">07:30</option>
+<option value="ru">08:12</option>
+<option value="ru">08:25</option>
+<option value="ru">08:55</option>
+<option value="ru">10:10</option>
+<option value="ru">10:50</option>
+<option value="ru">11:25</option>
+<option value="ru">11:37</option>
+<option value="ru">12:00</option>
+<option value="ru">12:25</option>
+<option value="ru">12:42</option>
+<option value="ru">13:10</option>
+<option value="ru">13:35</option>
+<option value="ru">13:55</option>
+<option value="ru">14:22</option>
+<option value="ru">14:45</option>
+<option value="ru">15:00</option>
+<option value="ru">15:20</option>
+<option value="ru">15:35</option>
+<option value="ru">16:05</option>
+<option value="ru">16:42</option>
+<option value="ru">17:10</option>
+<option value="ru">17:15</option>
+<option value="ru">18:00</option>
+<option value="ru">18:25</option>
+<option value="ru">18:35</option>
+<option value="ru">18:40</option>
+<option value="">ш.Октяб</option>
+<option value="ru">20:20</option>
+<option value="ru">20:35</option>
+<option value="ru">22:00</option>
+</select></div>
+
+<div class="bustime"><label class="busnumber" for="country" style="margin:auto;">149 (выходные: сб-вс) 
+<p class="textt">(ш.Октяб - Лесной)</p>
+</label>
+<select class="citybus" id="country" name="country">
+    <option value="">ш.Октябрьская</option>
+    <option value="ru">08:35</option>
+    <option value="us">10:35</option>
+    <option value="gb">13:00</option>
+    <option value="ru">14:45</option>
+<option value="ru">17:00</option>
+<option value="ru">18:55</option>
+<option value="ru">20:30</option>
+</select></div>
+
+<div class="bustime"><label class="busnumber" for="country" style="margin:auto;">140 (льготный)
+<p class="textt">(Заря - Лесной)</p>
+</label>
+<select class="citybus" id="country" name="country">
+    <option value="">Заря</option>
+    <option value="ru">06:45</option>
+    <option value="us">07:20</option>
+    <option value="gb">08:00</option>
+    <option value="ru">08:40</option>
+<option value="ru">09:15</option>
+<option value="ru">09:35</option>
+<option value="ru">09:55</option>
+<option value="ru">10:45</option>
+<option value="ru">11:45</option>
+<option value="ru">12:15</option>
+<option value="ru">12:35</option>
+<option value="ru">13:50</option>
+<option value="ru">14:15</option>
+<option value="ru">14:50</option>
+<option value="ru">15:25</option>
+<option value="ru">15:50</option>
+<option value="ru">16:15</option>
+<option value="ru">16:50</option>
+<option value="ru">17:25</option>
+<option value="ru">17:40</option>
+<option value="ru">18:10</option>
+<option value="ru">18:40</option>
+<option value="ru">19:20</option>
+<option value="ru">20:45</option>
+</select></div>
+
+<div class="bustime"><label class="busnumber" for="country" style="margin:auto;">200 (выходной: вс)
+<p class="textt">(Маг.№45 - Гермес)</p>
+</label>
+<select class="citybus" id="country" name="country">
+    <option value="">Маг.№45</option>
+    <option value="ru">07:33</option>
+    <option value="us">08:43</option>
+    <option value="gb">10:20</option>
+    <option value="ru">12:00</option>
+<option value="ru">14:00</option>
+<option value="ru">16:40</option>
+<option value="ru">18:10</option>
+</select></div>
+
+<div class="bustime"><label class="busnumber" for="country" style="margin:auto;">120 (льготный)
+<p class="textt">(Мереть - А/В)</p>
+</label>
+<select class="citybus" id="country" name="country">
+    <option value="">Мереть</option>
+    <option value="ru">06:55</option>
+    <option value="us">08:45</option>
+    <option value="gb">11:05</option>
+    <option value="ru">12:50</option>
+<option value="ru">17:10</option>
+<option value="ru">19:05</option>
+</select></div>
+
+<div class="bustime"><label class="busnumber" for="country" style="margin:auto;">128 (выходные: сб-вс) 
+<p class="textt">(ш.Сибирская - 10-й участок)</p>
+</label>
+<select class="citybus" id="country" name="country">
+    <option value="">ш.Сибирская</option>
+    <option value="ru">07:20</option>
+    <option value="us">09:55</option>
+    <option value="gb">12:00</option>
+    <option value="ru">14:13</option>
+<option value="ru">17:20</option>
+<option value="ru">19:50</option>
+</select></div>
+
+<div class="bustime"><label class="busnumber" for="country" style="margin:auto;">130 
+<p class="textt">(Заря - 7 Ноября)</p>
+</label>
+<select class="citybus" id="country" name="country">
+    <option value="">Заря</option>
+    <option value="ru">06:50</option>
+    <option value="us">07:40</option>
+    <option value="gb">08:45</option>
+    <option value="ru">09:30</option>
+<option value="ru">10:40</option>
+<option value="ru">11:02</option>
+<option value="ru">11:20</option>
+<option value="ru">12:52</option>
+<option value="ru">13:25</option>
+<option value="ru">14:05</option>
+<option value="ru">14:40</option>
+<option value="ru">15:15</option>
+<option value="ru">15:55</option>
+<option value="ru">17:05</option>
+<option value="ru">17:25</option>
+<option value="ru">19:07</option>
+<option value="ru">20:52</option>
+</select></div>
+
+<div class="bustime"><label class="busnumber" for="country" style="margin:auto;">150 (выходной: вс)
+<p class="textt">(ЗЖБИ - КСК)</p>
+</label>
+<select class="citybus" id="country" name="country">
+    <option value="">ЗЖБИ</option>
+    <option value="ru">06:20</option>
+    <option value="us">07:40</option>
+    <option value="gb">09:00</option>
+    <option value="ru">10:58</option>
+<option value="ru">13:25</option>
+<option value="ru">15:28</option>
+</select></div>
+
+<div class="bustime"><label class="busnumber" for="country" style="margin:auto;">123 (выходной: вс)
+<p class="textt">(Мохово - Губер.рын)</p>
+</label>
+<select class="citybus" id="country" name="country">
+    <option value="">Мохово</option>
+    <option value="ru">07:40</option>
+    <option value="us">10:20</option>
+    <option value="gb">12:50</option>
+    <option value="ru">14:40</option>
+<option value="ru">16:20</option>
+<option value="ru">17:55</option>
+</select></div>
+</div>
+</body>
+</html>
