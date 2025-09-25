@@ -45,11 +45,10 @@
 </div>
 <nav class="nav">
 <label for="city">Город:</label>
-<select class="city" id="city" name="city">
-    <option value="">Выберите город</option>
-    <option value="LK">Ленинск-Кузнецкий</option>
-    <option value="Pol">Полысаево</option>
-</select>
+<select onchange="if (this.value) window.location.href=this.value;"> class="city" id ="select">
+    <option value="../polysaevo.html">Полысаево</option>
+    <option value="../LK.html">Ленинск-Кузнецкий</option>
+    </select>
 </nav>
 </header>
 
@@ -60,7 +59,7 @@
 
 <div class="block">
 <div class="bustime"><label class="busnumber" for="country" style="margin:auto;">119 
-<p class="textt">(Губер.рын - ш.Октяб)</p>
+<p class="textt">(ш.Октяб - Губер.рын)</p>
 </label>
 <select class="citybus" id="country" name="country">
     <option value="">ш.Октябрьская</option>
@@ -81,7 +80,7 @@
 </select></div>
 
 <div class="bustime"><label class="busnumber" for="country" style="margin:auto;">119 (льготный) 
-<p class="textt">(Губер.рын - ш.Октяб)</p>
+<p class="textt">(ш.Октяб - Губер.рын)</p>
 </label>
 <select class="citybus" id="country" name="country">
     <option value="">ш.Октябрьская</option>
@@ -133,7 +132,7 @@
 </select></div>
 
 <div class="bustime"><label class="busnumber" for="country" style="margin:auto;">125 (льготный) 
-<p class="textt">(Победа - Заря)</p>
+<p class="textt">(Заря - Победа)</p>
 </label>
 <select class="citybus" id="country" name="country">
     <option value="">Заря</option>
