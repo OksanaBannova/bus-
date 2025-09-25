@@ -45,9 +45,9 @@
 </div>
 <nav class="nav">
 <label for="city">Город:</label>
-<select class="city" id="city" name="city">
-<option value="LK">Ленинск-Кузнецкий</option>
-    <option value="/">Полысаево</option>
+<select onchange="if (this.value) window.location.href=this.value";> class="city" id ="select">
+<option value="../LK.html">Ленинск-Кузнецкий</option>
+    <option value="../polysaevo.html">Полысаево</option>
     
     </select>
 </nav>
