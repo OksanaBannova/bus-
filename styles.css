@@ -88,6 +88,10 @@ text-align: center;
     margin-bottom: -10px;
 }
 
+.citybus_bus {
+    display: flex;
+}
+
 .textt {
 font-size: 10px;
 }
