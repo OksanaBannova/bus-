@@ -108,7 +108,7 @@ font-size: 10px;
 
 @media (max-width: 640px) {
 .header {
-    max-width: 400px;
+    max-width: 100%px;
 }
     
 .menu {
@@ -132,7 +132,8 @@ margin: auto;
 
     .nav {
        font-size: 15px;
-    margin-top: 20px;
+    margin-top: 5px;
+        padding-right: 5px;
     color: #8c1c36;
 
     }
