@@ -314,6 +314,14 @@
 </select></div>
 </div>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d73986.6152790548!2d86.301082!3d54.584934!3m2!1i1024!2i768!4f13.1!4m3!3e3!4m0!4m0!5e0!3m2!1sru!2sru!4v1758964928575!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+var map = new maplibregl.Map({
+  container: 'map',
+  style: 'https://demotiles.maplibre.org/style.json', // stylesheet location
+  center: [-74.5, 40], // starting position [lng, lat]
+  zoom: 9 // starting zoom
+});
+</script>
 </body>
 </html>
