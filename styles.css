@@ -116,6 +116,10 @@ color: #8c1c36;
 font-size: 15px;
 margin: auto;
 }
+
+    .nav {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 1199px) {
