@@ -138,6 +138,24 @@ margin: auto;
 }
 
 @media (min-width: 641px) and (max-width: 1199px) {
-    
+      .nav {
+       font-size: 15px;
+    margin-top: 20px;
+    color: #8c1c36;
+
+    }
+
+    .content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-items: center;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
 }
 
