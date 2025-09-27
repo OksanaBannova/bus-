@@ -137,7 +137,9 @@ margin: auto;
     color: #8c1c36;
 
     }
-
+select {
+    max-width: 100px;
+}
    
 }
 
