@@ -149,7 +149,13 @@ select {
     max-width: 110px;
     margin: auto;
     margin-bottom: -10px;
-}
+
+    display: flex;
+    position: absolute;
+    z-index: 32;
+    margin: auto;
+    margin-top: 78px;
+    margin-left: 11px;
    
 }
 
