@@ -135,6 +135,8 @@ margin: auto;
     margin-top: 5px;
         padding-right: 5px;
     color: #8c1c36;
+        display: flex;
+        flex-direction: column;
 
     }
 select {
