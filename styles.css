@@ -146,7 +146,9 @@ select {
 }
 
     .citybus_bus {
-    display: flex;
+    max-width: 110px;
+    margin: auto;
+    margin-bottom: -10px;
 }
    
 }
