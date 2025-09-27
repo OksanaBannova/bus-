@@ -88,6 +88,13 @@ text-align: center;
     margin-bottom: -10px;
 }
 
+.citybus_bus {
+    display: flex;
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 80px;
+}
+
 
 .textt {
 font-size: 10px;
