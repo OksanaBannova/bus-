@@ -137,7 +137,7 @@ margin: auto;
     flex-direction: column-reverse;
 }
 
-@media (min-width: 641px) and (max-width: 1199px) {
+//*@media (min-width: 641px) and (max-width: 1199px) {
       .nav {
        font-size: 15px;
     margin-top: 20px;
@@ -157,5 +157,5 @@ margin: auto;
     flex-wrap: wrap;
     flex-direction: column-reverse;
 }
-}
+}*//
 
