@@ -1,0 +1,9 @@
+@media (max-width: 640px) {
+.menu {
+color: #8c1c36;
+font-size: 15px;
+margin: auto;
+}
+}
+
+@media (min-width: 641px) and (max-width: 1199px) {}
